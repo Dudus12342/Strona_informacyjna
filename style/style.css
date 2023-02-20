@@ -18,7 +18,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -81,7 +80,8 @@ section{
     top: 0; 
     left: 0; 
     right: 0;
-    background: var(--bg);
+    background: rgb(202,202,202);
+    background: linear-gradient(90deg, rgba(202,202,202,1) 0%, rgba(124,98,91,1) 77%, rgba(166,89,30,1) 100%);
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
@@ -93,6 +93,12 @@ section{
     font-weight: bolder;
     color: var(--black);
   }
+  .header .logotyp{
+   height: 50px;
+   left: 0px;
+  padding-left: 0px;
+  padding-right: 40px;
+  }
   
 .header .logo i{
     color: var(--second-color);
@@ -102,6 +108,7 @@ section{
     font-size: 1.7rem;
     color: var(--black);
     margin: 0 1rem;
+    
   }
   
 .header .navbar a:hover{
@@ -136,7 +143,7 @@ section{
   .about .row .image img{
     width: 100%;
     height: 100%;
-    border-radius:40px;
+    border-radius:50px;
   }
   
   .about .row .content{
@@ -159,3 +166,70 @@ section{
     padding: 1rem 0;
     line-height: 2;
   }
+
+  /*stopka*/
+  
+.footer{
+  background: rgb(202,202,202);
+  background: linear-gradient(90deg, rgba(202,202,202,1) 0%, rgba(124,98,91,1) 77%, rgba(166,89,30,1) 100%);
+  text-align: center;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 2Fr));
+  gap: 2rem;
+}
+.footer .box-container h3{
+  font-size: 2.2rem;
+  color: var(--white);
+  padding: auto;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.2rem;
+  color: var(--white);
+  padding: auto;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  line-height: 2;
+  color:var(--white);
+  padding: .5rem 0;
+}
+
+.footer .box-container .share{
+  margin-top: 0;
+}
+
+.footer .box-container .share a{
+  height: 7rem;
+  width: 7rem;
+  line-height: 7rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  background: var(--primary-color);
+  color: var(--white);
+  margin-right: .3rem;
+}
+
+.footer .box-container .box .share a:hover{
+  background: orange
+}
+
+.footer .box-container .box .link{
+  font-size: 2.5rem;
+  line-height: 2;
+  color: rgb(194, 163, 106);
+  padding: .5rem 0;
+  display: block;
+  border-radius: 50%;
+}
+
+.footer .box-container .box .link:hover{
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+
