@@ -229,7 +229,7 @@ section{
 }
 
 .footer .box-container .box .link:hover{
-  color: var(--secondary);
+  color: var(--second-color);
   text-decoration: underline;
 }
 
