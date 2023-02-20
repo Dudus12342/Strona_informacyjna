@@ -7,7 +7,7 @@
     --red:red;
     --black:#000;
     --white:#fff;
-    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 *{
@@ -76,7 +76,7 @@ section{
   }
   
 .header{
-    position: fixed;
+    position: left;
     top: 0; 
     left: 0; 
     right: 0;
@@ -86,15 +86,16 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 10px;
   } 
 .header .logo{
+    height: 50px;
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
   }
   .header .logotyp{
-   height: 50px;
+   height: 100%;
    left: 0px;
   padding-left: 0px;
   padding-right: 40px;
