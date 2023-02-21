@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root{
-    --primary-color:rgb(102, 102, 102);
+    --primary-color:rgb(134, 134, 134);
     --second-color:rgb(238, 236, 236);
     --bg:rgb(110, 63, 63);
     --red:red;
@@ -63,6 +63,16 @@ section{
     padding: 1.2rem 0;
     font-size: 4rem;
     border-bottom: 2px solid white;
+
+  }
+  .heading3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
 
   }
   
@@ -210,11 +220,11 @@ section{
 
   /* Paralaxa */
   .parallax{
-    background: url(../images/malarnia.jpg) no-repeat;
+    background: url(../images/malarnia3.jpg) no-repeat;
     min-height: 100vh;
     background-attachment: fixed;
-    background-size: cover !important;
-    background-position: center !important;
+    background-size: cover;
+    background-position: center;
     z-index: 0;
     position: relative;
   }
@@ -246,9 +256,8 @@ section{
     padding-top: 2rem;
     padding-bottom: 4rem;
   }
-  .parallax .box_container .box .content p{
+  .parallax .box_container .box .content li{
     color: var(--white);
-    font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
@@ -258,8 +267,7 @@ section{
   /*stopka*/
   
 .footer{
-  background: rgb(202,202,202);
-  background: linear-gradient(90deg, rgba(202,202,202,1) 0%, rgba(124,98,91,1) 77%, rgba(166,89,30,1) 100%);
+  background:rgb(202,202,202);
   text-align: center;
 }
 
@@ -281,10 +289,11 @@ section{
 }
 
 .footer .box-container .box p{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 2;
-  color:var(--white);
+  color:var(--black);
   padding: .5rem 0;
+  font-weight: bold;
 }
 
 .footer .box-container .share{
@@ -292,9 +301,9 @@ section{
 }
 
 .footer .box-container .share a{
-  height: 7rem;
-  width: 7rem;
-  line-height: 7rem;
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
   border-radius: 50%;
   font-size: 1.7rem;
   background: var(--primary-color);
@@ -303,13 +312,13 @@ section{
 }
 
 .footer .box-container .box .share a:hover{
-  background: orange
+  background: rgb(39, 38, 36)
 }
 
 .footer .box-container .box .link{
   font-size: 2.5rem;
   line-height: 2;
-  color: rgb(194, 163, 106);
+  color: rgb(0, 0, 0);
   padding: .5rem 0;
   display: block;
   border-radius: 50%;
