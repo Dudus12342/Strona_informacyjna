@@ -13,23 +13,23 @@
 </head>
 <body>
     <header class="header">
-    <a href="#" class="logo"><img src="images/logo.svg" class="logotyp" alt="logo"></a>
-    <nav class="navbar">
-        <b><a href="#home">Strona Główna</a></b>
-        <b><a href="#about">O nas</a></b>
-        <b><a href="#product">Produkty</a></b>
-        <b><a href="#paintage">Malarnia proszkowa</a></b>
-        <b><a href="#gallery">Galeria</a></b>
-        <b><a href="#footer">Kontakt</a></b>
-    </nav>
-</header>
+        <a href="#" class="logo"><img src="images/logo.svg" class="logotyp" alt="logo"></a>
+        <nav class="navbar">
+            <b><a href="#home">Strona Główna</a></b>
+            <b><a href="#about">O nas</a></b>
+            <b><a href="#product">Produkty</a></b>
+            <b><a href="#paintage">Malarnia proszkowa</a></b>
+            <b><a href="#gallery">Galeria</a></b>
+            <b><a href="#footer">Kontakt</a></b>
+        </nav>
+    </header>
 
     <section class="about" id="about">
 
         <div class="row">
 
             <div class="image">
-                <img src="images/malarnia.jpg" alt="">
+                <img src="images/malarnia.jpg" alt="malarnia.jpg">
             </div>
 
             <div class="content">
@@ -40,6 +40,67 @@
 
         </div>
 
+    </section>
+    <section class="gallery">
+        <h1 class="heading">Nasze produkty</h1>
+        <div class="gallery_container">
+            <a href="images/items/A.jpg" class="box">
+                <img src="images/items/A.jpg" alt="">
+            </a>
+            <a href="images/items/B.jpg" class="box">
+                <img src="images/items/B.jpg" alt="">
+            </a>
+            <a href="images/items/C.jpg" class="box">
+                <img src="images/items/C.jpg" alt="">
+            </a>
+            <a href="images/items/D.jpg" class="box">
+                <img src="images/items/D.jpg" alt="">
+            </a>
+            <a href="images/items/E.jpg" class="box">
+                <img src="images/items/E.jpg" alt="">
+            </a>
+            <a href="images/items/F.jpg" class="box">
+                <img src="images/items/F.jpg" alt="">
+            </a>
+            <a href="images/items/G.jpg" class="box">
+                <img src="images/items/G.jpg" alt="">
+            </a>
+            <a href="images/items/H.jpg" class="box">
+                <img src="images/items/H.jpg" alt="">
+            </a>
+            <a href="images/items/I.jpg" class="box">
+                <img src="images/items/I.jpg" alt="">
+            </a>
+            <a href="images/items/J.png" class="box">
+                <img src="images/items/J.png" alt="">
+            </a>
+            <a href="images/items/K.jpg" class="box">
+                <img src="images/items/K.jpg" alt="">
+            </a>
+            <a href="images/items/E.jpg" class="box">
+                <img src="images/items/E.jpg" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="parallax">
+        <h1 class="heading2">Malarnia proszkowa</span></h1>
+
+        <div class="box_container">
+
+            <div class="box">
+                <div class="content">
+                    <h3>Box1</h3>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h3>Box2</h3>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+
+        </div>
     </section>
     <section class="footer">
 
@@ -78,6 +139,12 @@
 
     
     </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery_container'));
+    </script>
 </body>
 </html>
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/o2Hg7lfqmEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
