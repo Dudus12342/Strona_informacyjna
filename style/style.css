@@ -265,7 +265,66 @@ section{
   /* Koniec paralaxy */
   
   /*stopka*/
+  .contact{
+    background:rgb(202,202,202);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+  }
+  .contact .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2Fr));
+    gap: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 40px;
+  }
+  .contact .box-container h3{
+    font-size: 2.2rem;
+    color: var(--white);
+    padding: auto;
+  }
+  .contact .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--white);
+    padding: auto;
+  }
+  .contact .box-container .box p{
+    font-size: 1.8rem;
+    line-height: 2;
+    color:var(--black);
+    padding: .5rem 0;
+    font-weight: bold;
+  }
+  .contact .box-container .share{
+    margin-top: 0;
+  }
+  .contact .box-container .share a{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background: var(--primary-color);
+    color: var(--white);
+    margin-right: .3rem;
+  }
+
+  .contact .box-container .box .share a:hover{
+    background: rgb(150, 147, 142)
+  }
   
+  .contact .box-container .box .link{
+    font-size: 2.5rem;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    padding: .5rem 0;
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .contact .box-container .box .link:hover{
+    color: var(--second-color);
+    text-decoration: underline;
+  }
 .footer{
   background:rgb(202,202,202);
   text-align: center;
