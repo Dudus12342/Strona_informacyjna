@@ -129,7 +129,7 @@ section{
     font-size: 1.7rem;
     color: var(--black);
     margin: 0 1rem;
-    
+    font-weight: bold;
   }
   
 .header .navbar a:hover{
@@ -267,8 +267,24 @@ section{
   }
 
   /* Koniec paralaxy */
-  
-  /*stopka*/
+
+  /* Paleta Ral */
+  .palette .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2Fr));
+    gap: 2rem;
+    box-shadow: var(--box-shadow);
+  }
+
+  .palette .box-container .content p{
+    font-size: 1.6rem;
+    color: #000;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  /* Koniec Palety */
+
+  /* Kontakt */
   .contact{
     background:rgb(202,202,202);
     text-align: center;
@@ -329,6 +345,10 @@ section{
     color: var(--second-color);
     text-decoration: underline;
   }
+  /* Kontakt koniec */
+  
+  /*stopka*/
+  
 .footer{
   background:rgb(202,202,202);
   text-align: center;
@@ -393,7 +413,7 @@ section{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .header .navbar a:not(:first-child) {display: none;}
   .header .navbar a.icon {
     float: right;
@@ -405,10 +425,13 @@ section{
     right: 0;
     top: 0;
   }
+
+
 }
 
 .header .navbar.responsive a {
   float: none;
   display: block;
   text-align: left;
+  padding: 3px 0 3px 0;
 }
