@@ -28,19 +28,6 @@ html{
     scroll-behavior: smooth;
   }
   
-  html::-webkit-scrollbar{
-    width: .8rem;
-  }
-  
-html::-webkit-scrollbar-track{
-    background: transparent;
-  }
-  
-html::-webkit-scrollbar-thumb{
-    background: var(--primary-color);
-    border-radius: 5rem;
-  }
-  
 section{
     padding: 2rem 7%;
   }
@@ -224,7 +211,7 @@ section{
 
   /* Paralaxa */
   .parallax{
-    background: url(../images/malarnia3.jpg) no-repeat;
+    background: url(../images/malarnia2.jpg) no-repeat;
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
