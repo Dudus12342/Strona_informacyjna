@@ -285,7 +285,7 @@ section{
     border-radius: 40px;
   }
   .contact .box-container h3{
-    font-size: 2.2rem;
+    font-size: 10rem;
     color: var(--white);
     padding: auto;
   }
@@ -300,6 +300,13 @@ section{
     color:var(--black);
     padding: .5rem 0;
     font-weight: bold;
+  }
+  .contact .box-container .box a{
+    color:#645a5a
+ 
+  }
+  .contact .box-container .box a:hover{
+    color:#4e0606
   }
   .contact .box-container .share{
     margin-top: 0;
