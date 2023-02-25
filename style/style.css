@@ -186,27 +186,46 @@ section{
 
   .gallery .gallery_container{
     display: grid;
-    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(40rem, auto));
     gap: 2rem;
   }
 
   .gallery .gallery_container .box{
-    height: 40rem;
-    position: left;
+    position: relative;
     overflow: hidden;
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   
-  .gallery .gallery_container .box img{
+  .gallery .gallery_container .box .image img{
     max-width: 100%;
     object-fit: cover;
   }
   
-  .gallery .gallery_container .box:hover img{
+  .gallery .gallery_container .box:hover .image img{
     transform: scale(1.1);
   }
 
+  .gallery .gallery_container .box .content{
+    flex: 1 1 40rem;
+  }
+  
+  .gallery .gallery_container .box .content h3{
+    color: var(--black);
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+  }
+  
+  .gallery .gallery_container .box .content h3 span{
+    color: var(--second-color);
+  }
+  
+  .gallery .gallery_container .box .content p{
+    font-size: 1.2rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 2;
+  }
 
 
 
@@ -353,7 +372,7 @@ section{
 
 .footer .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 2Fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
   gap: 2rem;
 }
 .footer .box-container h3{
@@ -409,6 +428,12 @@ section{
   text-decoration: underline;
 }
 
+.footer .box-container .share{
+  color : rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 
 @media screen and (max-width: 700px) {
   .header .navbar a:not(:first-child) {display: none;}
@@ -422,7 +447,9 @@ section{
     right: 0;
     top: 0;
   }
-  
+  .contact .box-container .box .link{
+    font-size: 1.5rem;
+  }
 
 }
 
