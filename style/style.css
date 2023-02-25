@@ -186,26 +186,29 @@ section{
 
   .gallery .gallery_container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, auto));
     gap: 2rem;
   }
 
   .gallery .gallery_container .box{
     height: 40rem;
-    position: relative;
+    position: left;
     overflow: hidden;
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   
   .gallery .gallery_container .box img{
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
   }
   
   .gallery .gallery_container .box:hover img{
     transform: scale(1.1);
   }
+
+
+
 
   /* Koniec Galerii */
 
@@ -419,7 +422,7 @@ section{
     right: 0;
     top: 0;
   }
-
+  
 
 }
 
