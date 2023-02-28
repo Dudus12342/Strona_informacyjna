@@ -283,6 +283,7 @@ section{
     margin-bottom: 10px;
     font-weight: bold;
     border-radius: 10px;
+    cursor: pointer;
   }
 
    .toggleButton:hover{
@@ -350,6 +351,7 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(10rem, 2Fr));
     gap: 2rem;
     box-shadow: var(--box-shadow);
+    border-radius: 10px;
   }
 
   .palette .box-container .content p{
@@ -357,6 +359,7 @@ section{
     color: #000;
     padding: 1rem 0;
     line-height: 2;
+    font-weight: bold;
   }
   /* Koniec Palety */
 
