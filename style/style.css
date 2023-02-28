@@ -282,6 +282,7 @@ section{
     border: 2px black solid;
     margin-bottom: 10px;
     font-weight: bold;
+    border-radius: 10px;
   }
 
    .toggleButton:hover{
