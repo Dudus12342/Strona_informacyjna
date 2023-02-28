@@ -8,7 +8,8 @@
     --black:#000;
     --white:#fff;
     --box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
-}
+
+  }
 
 *{
     font-family: 'Quicksand', sans-serif;
@@ -201,7 +202,7 @@ section{
     object-fit: cover;
   }
   
-  .gallery .gallery_container .box:hover .image img{
+  .gallery .gallery_container .box .image:hover img{
     transform: scale(1.1);
   }
 
@@ -227,22 +228,38 @@ section{
     line-height: 2;
   }
   .gallery .gallery_container .box .content table{
-   border: 2px solid black;
-   font-size: 2rem;
-   text-align: center;
-   background-color: #888;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #888;
+    width: 100%;
+    display: block;
   }
 
   .gallery .gallery_container .box .content td{
     border: 2px solid black;
    }
    .gallery .gallery_container .box .content th{
-  font-weight: bold;
+    font-weight: bold;
    }
+
+   .gallery .gallery_container .box .content .toggleButton :hover{
+    background-color: black;
+    color: white;
+  }
+
    	th, td {
 		padding: 15px;
 		text-align: left;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
 	}
+
+  th {
+    border: 2px solid black;
+  }
+
 	tr:nth-child(even) {
 		background-color: #ccc;
 	}
@@ -252,7 +269,31 @@ section{
 	th {
 		background-color: #888;
 		color: white;
+    width: 100%;
 	}
+
+  .tableBlock {
+    transform: 2s linear;
+  }
+
+  .toggleButton {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px black solid;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+   .toggleButton:hover{
+    color: white;
+    background-color: #888;
+   }
+
+   .toggleButtonActive{
+    color: white;
+    background-color: #888;
+   }
+  
 
   /* Koniec Galerii */
 

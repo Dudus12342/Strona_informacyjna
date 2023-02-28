@@ -60,14 +60,19 @@
                         Podstawa dostępna w wymiarach profilu <b>80mm*40mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>Wysokość</th> <th>Średnica</th>
-                        </tr>
-                        <tr>
-                           <td>74</td> <td>90</td>
-                        </tr>
-                     </table>
+                    <button class="toggleButton" id="button_A" onclick="toggleTable(item_A,button_A)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_A">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15 >
+                            <tr>
+                               <th>Wysokość</th> <th>Średnica</th>
+                            </tr>
+                            <tr>
+                               <td>74</td> <td>90</td>
+                            </tr>
+                         </table>
+                    </div>
                 </div>
             </div>
 
@@ -84,7 +89,12 @@
                         Podstawa dostępna w wymiarach profilu <b>80mm*40mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                    <button class="toggleButton" id="button_B" onclick="toggleTable(item_B,button_B)">
+                        Wymiary
+                    </button>
+
+                    <div class="tableBlock" style="display: none" id="item_B">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
                         <tr>
                            <th>Długość</th> <th>Szerokość</th> <th>Wysokość</th>
                         </tr>
@@ -95,6 +105,7 @@
                             <td>100</td> <td>50</td> <td>58</td>
                          </tr>
                      </table>
+                    </div>
                 </div>
             </div>
 
@@ -127,7 +138,11 @@
                         Podstawa dostępna w wymiarach profilu <b>80mm*40mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                    <button class="toggleButton" id="button_D" onclick="toggleTable(item_D,button_D)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_D">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
                         <tr>
                            <th>&nbsp;Długość&nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
                         </tr>
@@ -153,6 +168,7 @@
                             <td>230</td> <td>85</td><td>74</td>
                          </tr>
                      </table>
+                    </div>
                 </div>
             </div>
 
@@ -169,32 +185,37 @@
                         Podstawa dostępna w wymiarach profilu <b>60mm*60mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>&nbsp;Długość&nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
-                        </tr>
-                        <tr>
-                           <td>100</td> <td>65</td><td>74</td>
-                        </tr>
-                        <tr>
-                            <td>120</td> <td>65</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>130</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>140</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>160</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>185</td> <td>85</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>230</td> <td>85</td><td>74</td>
-                         </tr>
-                     </table>
+                    <button class="toggleButton" id="button_E" onclick="toggleTable(item_E,button_E)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_E">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>&nbsp;Długość&nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
+                            </tr>
+                            <tr>
+                            <td>100</td> <td>65</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>120</td> <td>65</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>130</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>140</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>160</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>185</td> <td>85</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>230</td> <td>85</td><td>74</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
 
@@ -211,32 +232,37 @@
                         Podstawa dostępna w wymiarach profilu <b>60mm*60mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>&nbsp;Długość&nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
-                        </tr>
-                        <tr>
-                           <td>100</td> <td>65</td><td>74</td>
-                        </tr>
-                        <tr>
-                            <td>120</td> <td>65</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>130</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>140</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>160</td> <td>70</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>185</td> <td>85</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>230</td> <td>85</td><td>74</td>
-                         </tr>
-                     </table>
+                    <button class="toggleButton" id="button_F" onclick="toggleTable(item_F,button_F)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_F">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>&nbsp;Długość&nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
+                            </tr>
+                            <tr>
+                            <td>100</td> <td>65</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>120</td> <td>65</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>130</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>140</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>160</td> <td>70</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>185</td> <td>85</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>230</td> <td>85</td><td>74</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
 
@@ -253,14 +279,19 @@
                         Podstawa dostępna w wymiarach profilu <b>60mm*60mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>Wysokość</th> <th>Średnica</th>
-                        </tr>
-                        <tr>
-                           <td>74</td> <td>80</td>
-                        </tr>
-                     </table>
+                    <button class="toggleButton" id="button_G" onclick="toggleTable(item_G,button_G)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_G">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>Wysokość</th> <th>Średnica</th>
+                            </tr>
+                            <tr>
+                            <td>74</td> <td>80</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
 
@@ -277,14 +308,19 @@
                         Podstawa dostępna w wymiarach profilu <b>60mm*60mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>Wysokość</th> <th>Średnica</th>
-                        </tr>
-                        <tr>
-                           <td>74</td> <td>80</td>
-                        </tr>
-                     </table>
+                    <button class="toggleButton" id="button_H" onclick="toggleTable(item_H,button_H)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_H">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>Wysokość</th> <th>Średnica</th>
+                            </tr>
+                            <tr>
+                            <td>74</td> <td>80</td>
+                            </tr>
+                        </table>
+                        </div>
                 </div>
             </div>
             
@@ -301,35 +337,40 @@
                         Podstawa dostępna w wymiarach profilu <b>60mm*60mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>&nbsp;Długość &nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
-                        </tr>
-                        <tr>
-                           <td>244</td> <td>94</td><td>74</td>
-                        </tr>
-                        <tr>
-                            <td>214</td> <td>94</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>194</td> <td>94</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>174</td> <td>84</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>154</td> <td>84</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>134</td> <td>74</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>124</td> <td>74</td><td>74</td>
-                         </tr>
-                         <tr>
-                            <td>114</td> <td>64</td><td>74</td>
-                         </tr>
-                     </table>
+                    <button class="toggleButton" id="button_I" onclick="toggleTable(item_I,button_I)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_I">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>&nbsp;Długość &nbsp;</th> <th>&nbsp;Szerokość&nbsp;</th> <th>&nbsp;Wysokość&nbsp;</th>
+                            </tr>
+                            <tr>
+                            <td>244</td> <td>94</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>214</td> <td>94</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>194</td> <td>94</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>174</td> <td>84</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>154</td> <td>84</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>134</td> <td>74</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>124</td> <td>74</td><td>74</td>
+                            </tr>
+                            <tr>
+                                <td>114</td> <td>64</td><td>74</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             
@@ -362,14 +403,19 @@
                         Podstawa dostępna w <b>różnych</b> wymiarach profilu <b>STANDARD: 20mm*20mm</b>
                      <br>Wymiary (podane w <b>centymetrach</b>) w ofercie:
                     </p>
-                    <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
-                        <tr>
-                           <th>Wysokość<br>(Wiekszy/Mniejszy)</th> <th>Średnica<br>(Wiekszy/Mniejszy)</th>
-                        </tr>
-                        <tr>
-                           <td>50/43</td> <td>70/55</td>
-                        </tr>
+                    <button class="toggleButton" id="button_K" onclick="toggleTable(item_K,button_K)">
+                        Wymiary
+                    </button>
+                    <div class="tableBlock" style="display: none" id="item_K">
+                        <TABLE BORDER CELLSPACING=10 CELLPADDING=15>
+                            <tr>
+                            <th>Wysokość<br>(Wiekszy/Mniejszy)</th> <th>Średnica<br>(Wiekszy/Mniejszy)</th>
+                            </tr>
+                            <tr>
+                            <td>50/43</td> <td>70/55</td>
+                            </tr>
                         </table>
+                    </div>
                 </div>
             </div>
             
@@ -465,15 +511,5 @@
     </section>
 
     <script src="js/script.js"></script>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myNavbar");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
-    </script>
 </body>
 </html>
